@@ -24,6 +24,11 @@ Oreilly book it has python notebooks
 [A Survey on Neural Network Interpretability](https://arxiv.org/pdf/2012.14261.pdf)
 Review article with a useful taxonomy of the field
 
+[Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
+This paper is mentioned in the above review. The method described finds training observations that had the most influence in a given prediction
+
+[Representer Point Selection forExplaining Deep Neural Networks](https://arxiv.org/pdf/1811.09720.pdf)
+Also from the review. Very similar to the paper above, it also produces observations that had the most influence on a given prediction but the training data points discovered are labeled as excitatory (contribute positively) or inhibitory giving more insight into the value of the training data point. 
 
 [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/influential.html#influential)
 Book for practitioners by an Statistician
